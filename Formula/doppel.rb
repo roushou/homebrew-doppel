@@ -1,8 +1,8 @@
 class Doppel < Formula
   desc "Isolated macOS machines for AI agents"
   homepage "https://github.com/roushou/doppel"
-  url "https://github.com/roushou/doppel/releases/download/v0.2.0/doppel-0.2.0-macos-arm64.tar.gz"
-  sha256 "98c838095f594215f0736e720063cd305d8845b0f225751e3a74887698a39f7f"
+  url "https://github.com/roushou/doppel/releases/download/v0.2.1/doppel-0.2.1-macos-arm64.tar.gz"
+  sha256 "b7de6dc8c91eeea62ebddfb7001e0123e312c81871e2770b149181ca6fbefa93"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
