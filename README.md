@@ -4,6 +4,7 @@
 
 ```sh
 brew install roushou/doppel/doppel
+doppel setup
 ```
 
 Apple silicon only. The formula installs the signed, notarized release from

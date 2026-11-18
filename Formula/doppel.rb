@@ -1,8 +1,8 @@
 class Doppel < Formula
   desc "Isolated macOS machines for AI agents"
   homepage "https://github.com/roushou/doppel"
-  url "https://github.com/roushou/doppel/releases/download/v0.1.0/doppel-0.1.0-macos-arm64.tar.gz"
-  sha256 "81e90d8c9fd30430578f9f3bc3203a1b98432dfd27ca7f05ad972a535566458b"
+  url "https://github.com/roushou/doppel/releases/download/v0.2.0/doppel-0.2.0-macos-arm64.tar.gz"
+  sha256 "98c838095f594215f0736e720063cd305d8845b0f225751e3a74887698a39f7f"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
@@ -16,9 +16,8 @@ class Doppel < Formula
 
   def caveats
     <<~EOS
-      Start the daemon at login, then check what's missing:
-        doppel daemon install
-        doppel doctor
+      Make a golden image for agents (downloads macOS; takes a while):
+        doppel setup
     EOS
   end
 
